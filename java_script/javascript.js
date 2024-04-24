@@ -26,7 +26,7 @@ function endShowResults(){
 		document.getElementById("retry").style.display="inline-block";
 	}
 	else{
-		document.getElementById("TriviaQuestion").innerHTML ='CONGRATULATIONS !!. YOU ARE %'+ Math.trunc(correct_ans/13*100) + ' JAMAICAN !!' + correct_ans;
+		document.getElementById("TriviaQuestion").innerHTML ='CONGRATULATIONS !!. YOU ARE '+ Math.trunc(correct_ans/13*100) + '% JAMAICAN !!';
 		document.getElementById("retry").style.display="inline-block";
 
 	}
