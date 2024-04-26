@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jamaica Trivia Game</title>
+    <link rel="stylesheet" href="stylesheets\style.css" type="text/css">
+
+  </head>
+  <body>
+		<script src="java_script/javascript.js"></script>
+
+	<div class="main">
+  		<div class="nav">
+			<a href="index.html"> <img src="images/home.png">  </a>
+			<a href="play.html" onclick="resetQuiz()"> <img src="images/play.png">  </a>
+			<a href="instructions.html"> <img src="images/instruct.png"> </a>
+			<a href="info.html"> <img src="images/info.png"> </a>
+  		</div>
+
+  	<div ="mainbody">
+  		<h1> Jamaica Trivia Game </h1>
+
+  		<div id="TriviaQuestion"></div>
+  			<br>
+  				<button type="button" id="start" onclick="resetQuiz()"> Start </button> <br>
+  				<button type="button" id="retry" onclick="resetQuiz()"> Retry Quiz </button> <br>
+
+
+
+
+				<img src="images/map_ja.jpg" alt="Map of Jamaica" usemap="#jamap">
+				<map name="jamap">
+	    			<!-- defining clickable areas -->
+    					<!-- clickable area as circle -->
+
+						<area shape="circle" coords="120, 149, 25" href="#" onclick="checkAnswer('Negril')" >
+						<area shape="circle" coords="497, 61, 25" href="#" onclick="checkAnswer('Trelawny')">
+						<area shape="circle" coords="392, 337, 25" href="#" onclick="checkAnswer('Pelican')">
+						<area shape="circle" coords="981, 317, 25" href="#" onclick="checkAnswer('bob')">
+						<area shape="circle" coords="657, 303, 25" href="#" onclick="checkAnswer('milkRiver')">
+						<area shape="circle" coords="830, 345, 25" href="#" onclick="checkAnswer('spain')">
+						<area shape="circle" coords="321, 41, 25" href="#" onclick="checkAnswer('Mobay')">
+						<area shape="circle" coords="534, 337, 25" href="#" onclick="checkAnswer('baby')">
+						<area shape="circle" coords="1160, 364, 25" href="#" onclick="checkAnswer('bogle')">
+						<area shape="circle" coords="926, 170, 25" href="#" onclick="checkAnswer('007')">
+						<area shape="circle" coords="665, 83, 25" href="#" onclick="checkAnswer('dunns')">
+						<area shape="circle" coords="140, 56, 25" href="#" onclick="checkAnswer('Hanover')">
+						<area shape="circle" coords="1137, 257, 25" href="#" onclick="checkAnswer('porti')">
+			</map>
+ 		</div>
+
+		<div class="footer">
+			2024 @ Jamaica Trivia Game
+		</div>
+</div>
+  </body>
+</html>

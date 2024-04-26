@@ -1,0 +1,65 @@
+body {
+  
+  	display: grid;
+  	grid-template-rows: 70px 200px 10px;
+  	text-align: center;
+  	background: #96FCF6;	
+}
+
+
+p {
+  	font-size: 20px;
+  	text-align: left;
+  	margin: auto;
+  	width:600px;
+}
+
+
+#retry {
+	display: none;	
+}
+
+button{
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+
+.nav img{
+
+	height: 40px;
+	width: 140px:
+}
+
+.main {
+
+  	color: black;
+  	font-size: 20px;
+  	text-align: center;
+  	margin: auto;
+}
+
+
+.TriviaQuestion{
+text-align: center;
+
+}
+
+
+.footer{	
+  padding: 30px;
+  font-size: 15px;
+  text-decoration-line: underline;
+  text-decoration-color: green; 
+  font-weight: bold;
+}
+
+
+
